@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   
-  $('.xbtn').click(function() {
+  $('.xbtn, .closproj').click(function() {
       $('.featProjWrap').fadeOut();
       $('.project-con').removeClass('vis');
       $('body').removeClass("modalOpen");
