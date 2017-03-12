@@ -1,0 +1,33 @@
+{
+  "name": "lgd",
+  "version": "3.1.0",
+  "description": "My portfol",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.0",
+    "gulp-wait": "0.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LPII/LanceGD.com.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Lance Porter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LPII/LanceGD.com/issues"
+  },
+  "homepage": "https://github.com/LPII/LanceGD.com#readme"
+}
