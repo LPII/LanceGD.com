@@ -15,6 +15,7 @@
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="<?php bloginfo(template_directory); ?>/js/jquery-ui.min.js"></script>
   <script src="<?php bloginfo(template_directory); ?>/js/jq-functions.js"></script>
+  <script src="https://rawgit.com/hippich/bower-semver/master/semver.min.js"></script>
   <?php wp_head(); ?>
 </head>
 
