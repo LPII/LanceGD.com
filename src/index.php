@@ -420,7 +420,7 @@
 </div>
 <div class="animated fadeInLeft left-cont clr">
 
-  <video loop="" muted="" autoplay="" id="bgvid" preload="auto" class="hide-for-small-only">
+  <video loop="true" muted="" autoplay="" id="bgvid" preload="auto" class="hide-for-small-only">
     <source src="<?php bloginfo(template_directory); ?>/vid/space_vid.mp4">
     <source src="<?php bloginfo(template_directory); ?>/vid/space_vid.oggtheora.ogv">
     <source src="<?php bloginfo(template_directory); ?>/vid/space_vid.webmhd.webm">
@@ -431,8 +431,8 @@
     <div id="contin" class="row">
       <div class="twelve columns">
         <img src="<?php bloginfo(template_directory); ?>/img/logo.png" alt="">
-        <p>Hi, I’m Lance </br>
-          a Visual Designer and Front-end developer currently working in Michigan.</p>
+        <p>Hello, my name is Lance Porter,  </br>
+          I am a Visual Designer & Front-end developer currently working in Michigan.</p>
 
         <a href="mailto:LancePorterGD@gmail.com" class="btn">Connect With Me</a>
         <ul>
@@ -463,17 +463,15 @@
       <div class="twelve">
 
         <div class="contNode">
-          <h2 class="hclr">Who I am:</h2>
+          <h2 class="hclr">Who I am</h2>
           <p>My name is Lance Porter and I am a Visual Designer and Front-end developer born & raised in New Jersey, but currently
-            contracting in Michigan.</p>
+            contracting in the midwest.</p>
 
           <p>I underwent classical design training at Eastern Michigan University, where I received a Bachelors of Fine Arts
             with a concentration in Graphic Design and Visual Communication. I have extensive experience creating multimedia
             assets in Adobe Creative Suite and its competing alternatives (Sketch, Paintshop Pro).</p>
 
-          <p>I am fluent in HTML5, CSS3, Sass/Less pre-processors, CLI utilities, and I’m always increasing my Javascript literacy.
-            I have experience with open source CMS software like Wordpress and Drupal and am currently experimenting with
-            MVC frameworks like Angular.</p>
+          <p>I am fluent in HTML5, CSS3, JavaScript, Sass/Less pre-processors, and various CLI utilities. I have experience with open source CMS software like Wordpress and Drupal as well as development experience in highly regulated enterprise environemnts.</p>
 
           <p>I am currently in the exploratory phases of learning back-end technologies like PHP, Python, Ruby, Node.js and
             Go on a deeper level.</p>
@@ -481,7 +479,7 @@
           <a class="res" target="_blank" title="View My Resume" href="https://drive.google.com/file/d/0B3UOBFG3z6KrVjhLQlBGNC1kbms/view">View My Resume</a>
         </div>
         <div class="contNode">
-          <h2 class="hclr">Featured Work:</h2>
+          <h2 class="hclr">Featured Work</h2>
           <p>Please find a collection of selected works below. Click the thumbnail to view project details.</p>
 
           <ul id="projList">
@@ -507,7 +505,7 @@
 
 
         <div class="contNode">
-          <h2 class="hclr">Availability:</h2>
+          <h2 class="hclr">Availability</h2>
           <p>I am currently available for contract and remote work. Please contact me at <a class="inl" href="mailto:LancePorterGD@gmail.com">LancePorterGD@gmail.com</a>            if you would like to collaborate. Also if you are a fellow designer or developer please feel free to add me to
             your professional network, I am always looking to make new connections.</p>
         </div>

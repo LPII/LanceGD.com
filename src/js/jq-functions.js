@@ -20,7 +20,7 @@ function latestTag() {
 }
 
 
-//Doc ready
+
 $(document).ready(function () {
   //close project with close btns
   $('.xbtn, .closproj').click(function () {
