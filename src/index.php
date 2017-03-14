@@ -430,23 +430,23 @@
 
     <div id="contin" class="row">
       <div class="twelve columns">
-        <img src="<?php bloginfo(template_directory); ?>/img/logo.png" alt="">
-        <p>Hello, my name is Lance Porter,  </br>
-          I am a Visual Designer & Front-end developer currently working in Michigan.</p>
+        <img class="main_logo" src="<?php bloginfo(template_directory); ?>/img/logo.png" alt="">
+        <h1>Hello, my name is Lance Porter</h1>
+        <p>  I'm a Visual Designer & Front-end developer currently working in Michigan.</p>
 
         <a href="mailto:LancePorterGD@gmail.com" class="btn">Connect With Me</a>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/pub/lance-porter/46/736/8b8" title="LinkedIn" target="_blank"><img src="<?php bloginfo(template_directory); ?>/img/link-bg.png" alt=""></a>
+            <a href="https://www.linkedin.com/pub/lance-porter/46/736/8b8" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
           </li>
           <li>
-            <a href="https://twitter.com/Lance_GD" title="Twitter" target="_blank"><img src="<?php bloginfo(template_directory); ?>/img/twitt-bg.png" alt=""></a>
+            <a href="https://twitter.com/Lance_GD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           </li>
           <li>
-            <a href="https://github.com/LPII" title="Github" target="_blank"><img src="<?php bloginfo(template_directory); ?>/img/ghub-bg.png" alt=""></a>
+            <a href="https://github.com/LPII" title="Github" target="_blank"><i class="fa fa-github"></i></a>
           </li>
           <li>
-            <a href="http://www.behance.net/LancePorter" title="Behance" target="_blank"><img src="<?php bloginfo(template_directory); ?>/img/beh-bg.png" alt=""></a>
+            <a href="http://www.behance.net/LancePorter" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
           </li>
         </ul>
 
@@ -464,7 +464,7 @@
 
         <div class="contNode">
           <h2 class="hclr">Who I am</h2>
-          <p>My name is Lance Porter and I am a Visual Designer and Front-end developer born & raised in New Jersey, but currently
+          <p>My name is Lance Porter and I'm a Visual Designer and Front-end developer born & raised in New Jersey, but currently
             contracting in the midwest.</p>
 
           <p>I underwent classical design training at Eastern Michigan University, where I received a Bachelors of Fine Arts
@@ -476,7 +476,7 @@
           <p>I am currently in the exploratory phases of learning back-end technologies like PHP, Python, Ruby, Node.js and
             Go on a deeper level.</p>
 
-          <a class="res" target="_blank" title="View My Resume" href="https://drive.google.com/file/d/0B3UOBFG3z6KrVjhLQlBGNC1kbms/view">View My Resume</a>
+          <a class="res" target="_blank" title="View My Resume" href="https://drive.google.com/file/d/0B3UOBFG3z6KrVjhLQlBGNC1kbms/view"> <i class="fa-file-pdf-o fa"></i> View My Resume</a>
         </div>
         <div class="contNode">
           <h2 class="hclr">Featured Work</h2>

@@ -2,8 +2,9 @@
 "base/skeleton",
 "base/animate";
 
-
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
+
+@import "lib/font-awesome";
 
 $mainfont:'Oxygen', sans-serif;
 $dark:#0f0f0f;
@@ -15,6 +16,12 @@ $dark:#0f0f0f;
     transition:         $transition;
 }
 
+//@include radius(3px);
+@mixin radius($args...) {
+    -webkit-border-radius: $args;
+    -moz-border-radius: $args;
+    border-radius: $args;
+}
 p{
     font-family:$mainfont;
 
@@ -25,17 +32,19 @@ body{
 }
 
 .btn{
+   @include radius(3px);
     background:transparent;
     display:block;
     padding:15px;
     border:1px solid white;
     margin:0 auto;
     font-weight:bold;
-    &:hover{
-        @include transition(all .3s ease);
+          @include transition(all .3s ease);
         background:white;
         color:$dark;
-
+    &:hover{
+  
+transform:scale(1.1);
     }
 }
 
@@ -87,16 +96,29 @@ position:fixed;
     .row{
         .twelve{
             // margin-top: 15rem;
+            h1{
+                color:white;
+                margin:0;
+                text-align:center;
+                font-size:2.5rem;
+                    padding-top:5rem;
+            }
             img{
                 margin:0 auto;
                 display:block;
             }
+            .main_logo{
+                max-width:100%
+            }
             p{
                 text-align:center;
-                color:white;
+                color:#ccc;
                 padding: 5rem;
                 margin:0 auto;
                 max-width:313px;
+                padding-top:1rem;
+                padding-bottom:5rem;
+                font-size:1.7rem;
                 @media all and (max-width: 500px) { 
                  padding: 4rem 0rem;
              }
@@ -108,12 +130,15 @@ position:fixed;
             max-width: 170px;
 
             &.btn{
-                background:transparent;
+                background:rgba(255, 255, 255, 0.69);
                 display:block;
                 padding:15px;
                 border:1px solid white;
                 margin:0 auto;
                 font-weight:bold;
+                font-size:1.6rem;
+                color:$dark;
+                 margin-bottom:5.6rem;
                 &:hover{
                     @include transition(all .3s ease);
                     background:white;
@@ -130,10 +155,18 @@ position:fixed;
                 display:inline-block;
                 margin: 5rem 1.5rem;
                 color:white;
+                margin-top:0;
                 @media all and (max-width: 500px) { 
-                    margin: 3rem 2rem;
+                    margin: 3rem 3rem;
                 }
                 a{
+                    i{
+                        font-size:2.5rem;
+                        opacity:.8;
+                        transform:scale(.9);
+                        @include transition(all .3s ease);
+                       
+                    }
                     img{
                         opacity:.5;
                         @include transition(all .3s ease);
@@ -143,6 +176,15 @@ position:fixed;
                         }
                     }
 
+                }
+                &:hover{
+                    i{
+                        
+                             transform:scale(1.1);
+                               @include transition(all .3s ease);
+                            opacity:1;
+                        
+                    }
                 }
             }
         }
