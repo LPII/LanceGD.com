@@ -440,7 +440,7 @@
             <a href="https://www.linkedin.com/pub/lance-porter/46/736/8b8" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
           </li>
           <li>
-            <a href="https://twitter.com/Lance_GD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com/_LancePorter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           </li>
           <li>
             <a href="https://github.com/LPII" title="Github" target="_blank"><i class="fa fa-github"></i></a>

@@ -4,3 +4,5 @@ DBINFO.txt
 build/
 bower_components/
 debug.log
+.vs/
+.idea/
