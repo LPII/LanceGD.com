@@ -10,7 +10,6 @@ function closeProj() {
 //Use github api to get latest tag dynamically
 function latestTag() {
     var gitHubPath = 'LPII/LanceGD.com';
-    += = +
     var url = 'https://api.github.com/repos/' + gitHubPath + '/tags';
 
     $.get(url).done(function (data) {

@@ -13,9 +13,8 @@
   <link rel="stylesheet" href="<?php bloginfo(template_directory); ?>/css/style.css">
   <link rel="icon" type="image/png" href="<?php bloginfo(template_directory); ?>/img/fav.png">
   <script src="http://code.jquery.com/jquery.min.js"></script>
-  <script src="<?php bloginfo(template_directory); ?>/js/jquery-ui.min.js"></script>
-  <script src="<?php bloginfo(template_directory); ?>/js/jq-functions.js"></script>
-  <script src="https://rawgit.com/hippich/bower-semver/master/semver.min.js"></script>
+  <script src="http://rawgit.com/hippich/bower-semver/master/semver.min.js"></script>
+    <script src="<?php bloginfo(template_directory); ?>/js/app.js"></script>
   <?php wp_head(); ?>
 </head>
 
