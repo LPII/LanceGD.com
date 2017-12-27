@@ -104,7 +104,7 @@ gulp.task('make-rest', function () {
         }));
 });
 
-//(styles, js, image, sync rest)
+//(styles, js, no image, sync rest)
 gulp.task('construct', function () {
     runSequence('clean',
         'make-styles',
@@ -112,6 +112,14 @@ gulp.task('construct', function () {
         'make-rest');
 });
 
+//(styles, js, image, sync rest)
+gulp.task('construct-all', function () {
+    runSequence('clean',
+        'make-styles',
+        'make-js',
+        'make-rest',
+        'make-image');
+});
 
 
 //-- BUILD EXTENSION --//
