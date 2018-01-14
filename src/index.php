@@ -471,7 +471,7 @@
             with a concentration in Graphic Design and Visual Communication. I have extensive experience creating multimedia
             assets in Adobe Creative Suite and its competing alternatives (Sketch, Paintshop Pro).</p>
 
-          <p>I am fluent in HTML5, CSS3, JavaScript, Sass/Less pre-processors, and various CLI utilities. I have experience with open source CMS software like Wordpress and Drupal as well as development experience in highly regulated enterprise environemnts.</p>
+          <p>I am fluent in HTML5, CSS3, JavaScript, Sass/Less pre-processors, and various CLI utilities. I have experience with open source CMS software like Wordpress and Drupal as well as development experience in highly regulated enterprise environments.</p>
 
           <p>I am currently in the exploratory phases of learning back-end technologies like PHP, Python, Ruby, Node.js and
             Go on a deeper level.</p>
