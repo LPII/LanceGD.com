@@ -88,7 +88,7 @@
           <img src="<?php bloginfo(template_directory); ?>/img/proj-imgs/stax_1.jpg" alt="">
 
 
-          <a class="btn" target="_blank" href="http://stax.lancegd.com">Launch Project</a>
+          <a class="btn" target="_blank" href="http://www.lancegd.com/stax">Launch Project</a>
           <a href="#" class="closproj">Close Project</a>
         </div>
       </div>
